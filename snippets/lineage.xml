@@ -5,6 +5,9 @@
            fetch="https://github.com/"
            revision="lineage-21.0" />
 
+ <!-- Art -->
+  <project path="art" name="LineageOS/android_art" groups="pdk" remote="LineageOS" />
+
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" remote="LineageOS" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-21.0-legacy-um" remote="LineageOS" />
